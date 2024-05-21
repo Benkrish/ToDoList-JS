@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: bisque;
+}
+
+.container {
+  background-color: white;
+  width: 70%;
+  min-height: 100vh;
+  margin: 3vmax auto;
+  padding: 2vmax;
+}
+h1 {
+  margin: 1vmax auto;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  transition: all 0.2s;
+}
+h1:hover {
+  color: red;
+  text-decoration: underline;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+input,
+textarea,
+button {
+  margin: 0.5vmax;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 1.2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(17, 0, 255);
+}
+
+.task {
+  background-color: antiquewhite;
+  margin: 1vmax;
+  padding: 2vmax;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.task > div {
+  width: 100%;
+}
+
+.task span {
+  color: gray;
+}
+
+.deleteBtn {
+  background-color: crimson;
+  border-radius: 30px;
+  font-weight: bolder;
+}
